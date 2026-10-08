@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자기소개 - <%= name %></title>
+</head>
+<body>
+    <div style="background-color: lightcyan;">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="프로필 사진" width="100" align="right">
+        <h1> 프로필 </h1>
+        <p>
+            성명: <%= name %> <br>
+            학번: <%= studentId %> <br>
+            학과: <%= department %>
+        </p>
+    </div>
+
+    <div>
+        <h2 style="background-color: lightblue;"> 수강신청 </h2>
+        <table border="1">
+            <tr style="background-color: lightgray;">
+                <th>요일</th>
+                <th>과목</th>
+                <th>교시</th>
+            </tr>
+            <tr>
+                <td>화요일</td>
+                <td>웹개발실습</td>
+                <td>2~4교시</td>
+            </tr>
+            <tr>
+                <td>수요일</td>
+                <td>사물인터넷실습</td>
+                <td>1~3교시까지</td>
+            </tr>
+            <tr>
+                <td>목요일</td>
+                <td>수업없음</td>
+                <td>수업없음</td>
+            </tr>
+            <tr>
+                <td>금요일</td>
+                <td>네트워크보안</td>
+                <td>1~2교시</td>
+            </tr>
+        </table>
+        
+        <h2 style="background-color: lightblue;">내가 좋아하는 음식</h2>
+        <table border="1">
+            <tr style="background-color: lightgray;">
+                <th>음식명</th>
+                <th>사진</th>
+            </tr>
+            <tr>
+                <td>제육볶음</td>
+                <td><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f969.png" alt="제육볶음" width="80"></td>
+            </tr>
+            <tr>
+                <td>라면</td>
+                <td><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f35c.png" alt="라면" width="80"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
